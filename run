@@ -1,0 +1,36 @@
+Script started on 2022-06-26 23:30:22+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="142" LINES="32"]
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term>
+npm help npm       more involved overview
+
+All commands:
+
+    access, adduser, audit, bin, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    hook, init, install, install-ci-test, install-test, link,
+    ll, login, logout, ls, org, outdated, owner, pack, ping,
+    pkg, prefix, profile, prune, publish, rebuild, repo,
+    restart, root, run-script, search, set, set-script,
+    shrinkwrap, star, stars, start, stop, team, test, token,
+    uninstall, unpublish, unstar, update, version, view, whoami
+
+Specify configs in the ini-formatted file:
+    /home/ubuntu/.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@8.5.1 /usr/share/nodejs/npm
+
+Script done on 2022-06-26 23:30:23+05:30 [COMMAND_EXIT_CODE="1"]

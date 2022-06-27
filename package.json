@@ -1,0 +1,23 @@
+{
+  "name": "container-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "record": "node ./src/record.js",
+    "analyse": "sudo  node ./src/analyse.js",
+    "stop": "sudo node ./src/stop.js",
+    "output": " node ./src/output.js",
+    "server": "node ./src/server.js",
+    "index": "node ./src/index.js"
+
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "shelljs": "^0.8.5"
+  }
+}
