@@ -1,0 +1,106 @@
+[
+    {
+        "Id": "sha256:d1fe2eaf610136771d6883bae3001aea0b5c90ab56fb190e052227cbfe73364d",
+        "RepoTags": [
+            "registry:latest"
+        ],
+        "RepoDigests": [
+            "registry@sha256:e17861b7143efe0e283578925303c95dcd7c09d1213b4b451ee04b2fb7c3c219"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2022-07-18T23:55:48.194956259Z",
+        "Container": "749e0d818007a71897fd5b5b7d12adedae0e213922f1819c781d4b996af72a6c",
+        "ContainerConfig": {
+            "Hostname": "749e0d818007",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/etc/docker/registry/config.yml\"]"
+            ],
+            "Image": "sha256:2e8cd6a328eccdea4bdd3d851abf421f0f6858638cfe1f3aa92cc25f501e54f7",
+            "Volumes": {
+                "/var/lib/registry": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/etc/docker/registry/config.yml"
+            ],
+            "Image": "sha256:2e8cd6a328eccdea4bdd3d851abf421f0f6858638cfe1f3aa92cc25f501e54f7",
+            "Volumes": {
+                "/var/lib/registry": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 24108945,
+        "VirtualSize": 24108945,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/1e748b70c65c201304c3981c57406c2e33aa1966dbc97d60382cc2bb104e0dce/diff:/var/lib/docker/overlay2/4cd987b337e2cfdbf049ecaf85d42f9ea26fc0c240175902edd97d67b5da3aed/diff:/var/lib/docker/overlay2/892a5322add02a9d84c56bde4603fdf8797cdaecaf28cf29dfb78cb4f055a4c5/diff:/var/lib/docker/overlay2/e25cf93990def50904515793c9645a815f2b6ecba77011ec9469dd577742f081/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a0b01041d749dfe483a48b67ee3565cbbad0beec8ca0752eb3a295ba6df27fe9/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a0b01041d749dfe483a48b67ee3565cbbad0beec8ca0752eb3a295ba6df27fe9/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a0b01041d749dfe483a48b67ee3565cbbad0beec8ca0752eb3a295ba6df27fe9/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:ec34fcc1d526fba48f7f88e4ec765fccc17d4692570db85cf32d9d6b020330f2",
+                "sha256:7b35f2def65dc6b7d9f65798afc44ad99112afc5e2b4b0a9ce37f4c29d0b1515",
+                "sha256:f93fff1ab6f7dffd98886ce8c5c8078254b87ee752eb1e5fd16987b650a08208",
+                "sha256:6a4340199717ec7955226c036ee619f675a6eb7ad9c11c52d61b6f2016665325",
+                "sha256:4977497eb9c0fb62d4b9c1d0870b6f0a85ac09be6a6e73c13cee0ac63a8cda6e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

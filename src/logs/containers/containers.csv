@@ -1,0 +1,4 @@
+Container ID;Container Name;Original Image;AppArmor Profile;CapAdd;CapDrop;IPC;PID Mode;PIDs Limit;Privileged;Read Only;Security Options;User NS;Logging;Config User;whoami;Network Mode;Networks;Ports;Host Binds
+4d2bb3d3a4a0;/hungry_joliot;memcached;docker-default;[];[];private;;<nil>;false;false;[];;json-file;memcache;;default;map[bridge:0xc000501b00];map[11211/tcp:{}];[]
+3a5954ae8d11;/Glance-container;nicolargo/glances:3.2.0-full;docker-default;[];[];private;host;<nil>;false;false;[label=disable];;json-file;;;host;map[host:0xc000501b00];map[61208/tcp:{} 61209/tcp:{}];[/var/run/docker.sock:/var/run/docker.sock:ro]
+692358ae805d;/CTOP-container;quay.io/vektorlab/ctop:latest;docker-default;[];[];private;;<nil>;false;false;[];;json-file;;;default;map[bridge:0xc0004ffb00];map[];[/var/run/docker.sock:/var/run/docker.sock:ro]

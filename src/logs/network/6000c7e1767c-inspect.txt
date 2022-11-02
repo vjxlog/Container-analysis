@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "bridge",
+        "Id": "6000c7e1767cec9aa19dec32d8a41f3e4960fc8b49c69b158dda9c78f1f0de2c",
+        "Created": "2022-08-20T06:19:38.690916009+05:30",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "4d2bb3d3a4a0840166387a0d9c949d40ac0195cae7df9046a973e89e53d265f8": {
+                "Name": "hungry_joliot",
+                "EndpointID": "7dd2a92ecd09f730116391ba9aadb0f879c2ac2516944c92176beb03e91bae72",
+                "MacAddress": "02:42:ac:11:00:03",
+                "IPv4Address": "172.17.0.3/16",
+                "IPv6Address": ""
+            },
+            "692358ae805d81711b48df0420c36a8a35acfe95489d8ed0a4858d52ea397c54": {
+                "Name": "CTOP-container",
+                "EndpointID": "e208e17dd2e8b50fd535619582fca51994198e099b34833aa36f197a8b5e8db0",
+                "MacAddress": "02:42:ac:11:00:02",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "false",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {}
+    }
+]

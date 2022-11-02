@@ -1,0 +1,3 @@
+IMAGE                                                                     CREATED        CREATED BY                                                                                          SIZE      COMMENT
+sha256:27941809078cc9b2802deb2b0bb6feed6c236cde01e487f200e24653533701ee   2 months ago   /bin/sh -c #(nop)  CMD ["bash"]                                                                     0B        
+<missing>                                                                 2 months ago   /bin/sh -c #(nop) ADD file:11157b07dde10107f3f6f2b892c869ea83868475d5825167b5f466a7e410eb05 in /    77.8MB    

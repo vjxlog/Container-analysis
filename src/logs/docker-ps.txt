@@ -1,0 +1,4 @@
+CONTAINER ID                                                       IMAGE                           COMMAND                                                                        CREATED              STATUS              PORTS       NAMES
+4d2bb3d3a4a0840166387a0d9c949d40ac0195cae7df9046a973e89e53d265f8   memcached                       "docker-entrypoint.sh memcached"                                               About a minute ago   Up About a minute   11211/tcp   hungry_joliot
+3a5954ae8d118c031be30ca101c8bb600c3aae71c9e9f12ba71bc5864074ede3   nicolargo/glances:3.2.0-full    "/bin/sh -c 'python3 -m glances -C /glances/conf/glances.conf $GLANCES_OPT'"   2 hours ago          Up 2 hours                      Glance-container
+692358ae805d81711b48df0420c36a8a35acfe95489d8ed0a4858d52ea397c54   quay.io/vektorlab/ctop:latest   "/ctop"                                                                        2 hours ago          Up 2 hours                      CTOP-container

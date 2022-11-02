@@ -1,0 +1,13 @@
+# OS Release
+
+
+
+
+# User Information
+
+
+
+
+# ps -ef Output
+
+

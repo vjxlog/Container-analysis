@@ -1,0 +1,3 @@
+IMAGE                                                                     CREATED         CREATED BY                                                                                           SIZE      COMMENT
+sha256:feb5d9fea6a5e9606aa995e879d862b825965ba48de054caab5ef356dc6b3412   11 months ago   /bin/sh -c #(nop)  CMD ["/hello"]                                                                    0B        
+<missing>                                                                 11 months ago   /bin/sh -c #(nop) COPY file:50563a97010fd7ce1ceebd1fa4f4891ac3decdf428333fb2683696f4358af6c2 in /    13.3kB    

@@ -1,0 +1,69 @@
+apparmor module is loaded.
+47 profiles are loaded.
+43 profiles are in enforce mode.
+   /snap/snapd/16010/usr/lib/snapd/snap-confine
+   /snap/snapd/16010/usr/lib/snapd/snap-confine//mount-namespace-capture-helper
+   /snap/snapd/16292/usr/lib/snapd/snap-confine
+   /snap/snapd/16292/usr/lib/snapd/snap-confine//mount-namespace-capture-helper
+   /usr/bin/evince
+   /usr/bin/evince-previewer
+   /usr/bin/evince-previewer//sanitized_helper
+   /usr/bin/evince-thumbnailer
+   /usr/bin/evince//sanitized_helper
+   /usr/bin/man
+   /usr/lib/NetworkManager/nm-dhcp-client.action
+   /usr/lib/NetworkManager/nm-dhcp-helper
+   /usr/lib/connman/scripts/dhclient-script
+   /usr/lib/cups/backend/cups-pdf
+   /usr/lib/snapd/snap-confine
+   /usr/lib/snapd/snap-confine//mount-namespace-capture-helper
+   /usr/sbin/cups-browsed
+   /usr/sbin/cupsd
+   /usr/sbin/cupsd//third_party
+   /{,usr/}sbin/dhclient
+   docker-default
+   libreoffice-senddoc
+   libreoffice-soffice//gpg
+   libreoffice-xpdfimport
+   lsb_release
+   man_filter
+   man_groff
+   nvidia_modprobe
+   nvidia_modprobe//kmod
+   snap-update-ns.firefox
+   snap-update-ns.go
+   snap-update-ns.snap-store
+   snap-update-ns.snapd-desktop-integration
+   snap.firefox.firefox
+   snap.firefox.geckodriver
+   snap.firefox.hook.configure
+   snap.snap-store.hook.configure
+   snap.snap-store.snap-store
+   snap.snap-store.ubuntu-software
+   snap.snap-store.ubuntu-software-local-file
+   snap.snapd-desktop-integration.hook.configure
+   snap.snapd-desktop-integration.snapd-desktop-integration
+   tcpdump
+4 profiles are in complain mode.
+   libreoffice-oosplash
+   libreoffice-soffice
+   snap.go.go
+   snap.go.gofmt
+0 profiles are in kill mode.
+0 profiles are in unconfined mode.
+10 processes have profiles defined.
+10 processes are in enforce mode.
+   /usr/sbin/cups-browsed (805) 
+   /usr/sbin/cupsd (739) 
+   /usr/lib/cups/notifier/dbus (767) /usr/sbin/cupsd
+   /usr/lib/cups/notifier/dbus (768) /usr/sbin/cupsd
+   /ctop (13749) docker-default
+   /usr/bin/dash (13836) docker-default
+   /usr/local/bin/python3.9 (13850) docker-default
+   /usr/local/bin/memcached (34084) docker-default
+   /snap/snap-store/582/usr/bin/snap-store (2417) snap.snap-store.ubuntu-software
+   /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration (2066) snap.snapd-desktop-integration.snapd-desktop-integration
+0 processes are in complain mode.
+0 processes are unconfined but have a profile defined.
+0 processes are in mixed mode.
+0 processes are in kill mode.

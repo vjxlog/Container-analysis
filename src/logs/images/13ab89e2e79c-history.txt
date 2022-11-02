@@ -1,0 +1,4 @@
+IMAGE                                                                     CREATED        CREATED BY                                                                                               SIZE      COMMENT
+sha256:13ab89e2e79c1e975949bc4f53e049bdced9312609e27712268581b6ec08f9d9   4 months ago   /bin/sh -c #(nop)  ENTRYPOINT ["/ctop"]                                                                  0B        
+<missing>                                                                 4 months ago   /bin/sh -c #(nop) COPY file:a1dc55e002769672b908a109d65723df2e49e54b42c023b89bd7320396824a3d in /ctop    13.2MB    
+<missing>                                                                 4 months ago   /bin/sh -c #(nop)  ENV TERM=linux                                                                        0B        

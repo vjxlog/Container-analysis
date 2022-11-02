@@ -5,19 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "record": "node ./src/record.js",
+    "record": "sh ./src/record.sh",
     "analyse": "sudo  node ./src/analyse.js",
-    "stop": "sudo node ./src/stop.js",
+    "stop": "sh ./src/stop.sh",
     "output": " node ./src/output.js",
     "server": "node ./src/server.js",
     "index": "node ./src/index.js"
-
   },
   "author": "vijay",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.16",
+    "serve-index": "^1.9.1",
     "shelljs": "^0.8.5"
   }
 }

@@ -37,7 +37,7 @@ rl.question('Enter image name ? ', function (name) {
     }
     shell.cd("..");
     shell.cd(`Inspec`);
-    shell.exec(`inspec exec cis-docker-benchmark`);
+    // shell.exec(`inspec exec cis-docker-benchmark`);
 
       let id = shell.exec("docker ps -aq");
 
@@ -56,7 +56,7 @@ rl.question('Enter image name ? ', function (name) {
     
     shell.exec(`trivy image ${name} `);
     
-      //dive  
+      //Snyk  
     //   console.log("Dive bench is starting to analyse");
 
 
@@ -81,8 +81,15 @@ rl.question('Enter image name ? ', function (name) {
 
     shell.exec(`snyk container test ${name}`);
 
+    shell.cd(`..`);
+    shell.cd(`src`) ;
+
+    shell.exec(`pwd`) ;
+    
+    shell.exec(`sudo sh ./docksec.sh`);
+
     shell.exec(`sudo docker ps -aq |sudo xargs docker stop |sudo xargs docker rm`);
 
     shell.exit(1);
 
-})
+ })

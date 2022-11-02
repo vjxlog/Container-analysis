@@ -1,0 +1,1 @@
+srw-rw---- 1 root docker 0 Aug 20 06:19 /var/run/docker.sock

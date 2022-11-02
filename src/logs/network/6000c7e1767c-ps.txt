@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE                           COMMAND                  CREATED              STATUS              PORTS       NAMES
+4d2bb3d3a4a0   memcached                       "docker-entrypoint.s…"   About a minute ago   Up About a minute   11211/tcp   hungry_joliot
+692358ae805d   quay.io/vektorlab/ctop:latest   "/ctop"                  2 hours ago          Up 2 hours                      CTOP-container

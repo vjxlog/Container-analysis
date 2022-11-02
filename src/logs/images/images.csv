@@ -1,0 +1,8 @@
+Image ID;Image Name and Tag;Creation Date;Container User;Exposed Ports;Environmental Variables
+36a225838cd6;[memcached:latest];2022-08-04T20:02:09.241377376Z;memcache;map[11211/tcp:{}];[PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin MEMCACHED_VERSION=1.6.16 MEMCACHED_SHA1=724f31c3462fb6b07264d72d0043fd65545fd84a]
+d1fe2eaf6101;[registry:latest];2022-07-18T23:55:48.194956259Z;;map[5000/tcp:{}];[PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin]
+1133a9cdc367;[postgres:latest];2022-07-12T09:55:26.945537822Z;;map[5432/tcp:{}];[PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin GOSU_VERSION=1.14 LANG=en_US.utf8 PG_MAJOR=14 PG_VERSION=14.4-1.pgdg110+1 PGDATA=/var/lib/postgresql/data]
+27941809078c;[ubuntu:latest];2022-06-06T22:21:26.309275979Z;;map[];[PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin]
+13ab89e2e79c;[quay.io/vektorlab/ctop:latest];2022-03-30T18:14:50.794083618Z;;map[];[PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin TERM=linux]
+feb5d9fea6a5;[hello-world:latest];2021-09-23T23:47:57.442225064Z;;map[];[PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin]
+82768cf1df46;[nicolargo/glances:3.2.0-full];2021-07-03T08:52:42.107345888Z;;map[61208/tcp:{} 61209/tcp:{}];[PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LANG=C.UTF-8 GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568 PYTHON_VERSION=3.9.6 PYTHON_PIP_VERSION=21.1.3 PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7]

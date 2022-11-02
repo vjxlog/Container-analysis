@@ -1,0 +1,111 @@
+[
+    {
+        "Id": "sha256:82768cf1df46faf45d069d17b363091535ec1943275bff0e450c20500a6eb522",
+        "RepoTags": [
+            "nicolargo/glances:3.2.0-full"
+        ],
+        "RepoDigests": [
+            "nicolargo/glances@sha256:7e82870fad9cca65f03b6aef51b90731ac0263f485cd5632e90da70cb174d759"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2021-07-03T08:52:42.107345888Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "61208/tcp": {},
+                "61209/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+                "PYTHON_VERSION=3.9.6",
+                "PYTHON_PIP_VERSION=21.1.3",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "python3 -m glances -C /glances/conf/glances.conf $GLANCES_OPT"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.created": "2021-07-03T08:49:16.347Z",
+                "org.opencontainers.image.description": "Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.",
+                "org.opencontainers.image.licenses": "LGPL-3.0",
+                "org.opencontainers.image.revision": "e7fa0a4cdd647974bcd9f2d4d831a71b87cfbf65",
+                "org.opencontainers.image.source": "https://github.com/nicolargo/glances",
+                "org.opencontainers.image.title": "glances",
+                "org.opencontainers.image.url": "https://nicolargo.github.io/glances/",
+                "org.opencontainers.image.version": "v3.2.0"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 247415638,
+        "VirtualSize": 247415638,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/d6667955267490d2c8a819a7e2dcf978e5b8d8d466544889c034c7179580a4d0/diff:/var/lib/docker/overlay2/cf8b6803c475eec2421672911d2a90c097b08eb0ce3c98701390c921f0024c52/diff:/var/lib/docker/overlay2/b3bfd1eb853e9d1465c04dc46a4fffbd787a063f88ec1baf5a5ae71e2755f4c4/diff:/var/lib/docker/overlay2/e903161081d8d0e43a1a7bfb9b872c0089ddc52981612541e2cc179aa05e503a/diff:/var/lib/docker/overlay2/337ff2718f88fb91a8ac5f4c471881263e22911e29a7ad351e5b23a7c7f900a6/diff:/var/lib/docker/overlay2/f9d3875b9cc52fd962a4f49d85417d0227cfd264df99bf2069aa948921101bbf/diff:/var/lib/docker/overlay2/2631105c443843a5295e2ec718803f8a67f2b712ad385ca5c359e13ffa871425/diff:/var/lib/docker/overlay2/83e7eefb3285994172c6c438bc124625035ec571007b320ec4c4b44ed45facc3/diff",
+                "MergedDir": "/var/lib/docker/overlay2/5d028479984b29c596eb2da05e5623e7bd24f644ce097ceae28e7ca511b45323/merged",
+                "UpperDir": "/var/lib/docker/overlay2/5d028479984b29c596eb2da05e5623e7bd24f644ce097ceae28e7ca511b45323/diff",
+                "WorkDir": "/var/lib/docker/overlay2/5d028479984b29c596eb2da05e5623e7bd24f644ce097ceae28e7ca511b45323/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:764055ebc9a7a290b64d17cf9ea550f1099c202d83795aa967428ebdf335c9f7",
+                "sha256:8d418cbfaf253d587eef60bf5a0485aa36f25a492b97a0f283b836d61c7cd678",
+                "sha256:35da696d86ca8133e01c0d3ffa4ce3631223aba00ce2f8e811cb0ed9616a7a17",
+                "sha256:d9c7dde297a85bf04e6d678eb18107bbe0cae1db86f7f12cbce5bad9bad2804c",
+                "sha256:53bff0bed1a50809e5ec77442de9276257145425d413e9d93d9806a4875867f0",
+                "sha256:fff0c6175f124a4b6fcc117de46fb12317e75e429dbabab91165a904e817d9a1",
+                "sha256:2dda374a0b84638e564d4385587eb36c8c0b2e489a7550ba03fa20733322ac12",
+                "sha256:d72bb0a80409f47d28154ca9edfb172d70698ab1f36818e78e839b76379ff170",
+                "sha256:973c6352d19b8587d575e261dad433e88baeaabdfbae0ce03d909f384a9e0fad"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "Id": "sha256:36a225838cd6927616fc3c9afc4fc26e1fbe4097250b113b6b8508e02ae6a589",
+        "RepoTags": [
+            "memcached:latest"
+        ],
+        "RepoDigests": [
+            "memcached@sha256:0afaa8e890393e089efc991b62ec98d3dd53e5da995abfa548e5df9c70722015"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2022-08-04T20:02:09.241377376Z",
+        "Container": "f8c7df9e3402a46b0d06a66a5b7b12f2d3d21f35eb97db3073957de71c26ef74",
+        "ContainerConfig": {
+            "Hostname": "f8c7df9e3402",
+            "Domainname": "",
+            "User": "memcache",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "11211/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "MEMCACHED_VERSION=1.6.16",
+                "MEMCACHED_SHA1=724f31c3462fb6b07264d72d0043fd65545fd84a"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"memcached\"]"
+            ],
+            "Image": "sha256:ec77ec98a84aab0dadf8b2d20352ac519e56d3dec4df0d1ed43fc97e5044bab1",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "memcache",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "11211/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "MEMCACHED_VERSION=1.6.16",
+                "MEMCACHED_SHA1=724f31c3462fb6b07264d72d0043fd65545fd84a"
+            ],
+            "Cmd": [
+                "memcached"
+            ],
+            "Image": "sha256:ec77ec98a84aab0dadf8b2d20352ac519e56d3dec4df0d1ed43fc97e5044bab1",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 89136219,
+        "VirtualSize": 89136219,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/5eb28ab84c2767bfbe7865e16f3e7827492c4ca0adacc6d4851b54defa6f74da/diff:/var/lib/docker/overlay2/a605b5ba0448833f32ed3a2c352a17b1e232fafa14352445c4306a5c1d0b72d8/diff:/var/lib/docker/overlay2/34c04e76adb870ebd5ae38a263d65650b0a2eae15a578ee343f3b68e552a18ca/diff:/var/lib/docker/overlay2/062f2d43b29e99cc353d56cf88de025e8ab9fa452a996bfae78428d64785f977/diff:/var/lib/docker/overlay2/005328105c021d06a2904fbdee55da7151fa92ea5ea302e28a089ae157428884/diff",
+                "MergedDir": "/var/lib/docker/overlay2/3561915f6cee61647eadcd0f9c6666ede22694eb0315bf009103b333e303afa2/merged",
+                "UpperDir": "/var/lib/docker/overlay2/3561915f6cee61647eadcd0f9c6666ede22694eb0315bf009103b333e303afa2/diff",
+                "WorkDir": "/var/lib/docker/overlay2/3561915f6cee61647eadcd0f9c6666ede22694eb0315bf009103b333e303afa2/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:92a4e8a3140f7a04a0e5a15793adef2d0e8889ed306a8f95a6cfb67cecb5f212",
+                "sha256:21458effc467219a3c57eba674b9b7eec02bf6bb977eecd6489016c0900efa95",
+                "sha256:0f9073079b0d507c101fdfc0143bbdcf94826f32b821682e43c2982a711e6954",
+                "sha256:15aed29fd8f4017c4467233caeb5c266ca48772a9f5e5d69f57e63aee472021b",
+                "sha256:50666154ae86804e9de93295308d3fe44bad8f6d806d1546da6bbc15165a4a5e",
+                "sha256:1b191ae7cc4c103a6ef0773ef38567479ede336455b9614d81cdf591d5a0a13e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "Name": "host",
+        "Id": "507534c328edd18338616fb94c2c40cea3079e85e94bcf7d58f4093c1e781d10",
+        "Created": "2022-06-02T20:43:45.237848065+05:30",
+        "Scope": "local",
+        "Driver": "host",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": []
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "3a5954ae8d118c031be30ca101c8bb600c3aae71c9e9f12ba71bc5864074ede3": {
+                "Name": "Glance-container",
+                "EndpointID": "cd67b54773f7b00209cb68246340d8015f81b60362a12b50b90076d04f30fc9d",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]

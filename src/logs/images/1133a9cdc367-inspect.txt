@@ -1,0 +1,126 @@
+[
+    {
+        "Id": "sha256:1133a9cdc367ce94496f15ec5e6df09ab2be17c7cea06dda61b196ffde2df9b0",
+        "RepoTags": [
+            "postgres:latest"
+        ],
+        "RepoDigests": [
+            "postgres@sha256:3e2eba0a6efbeb396e086c332c5a85be06997d2cf573d34794764625f405df4e"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2022-07-12T09:55:26.945537822Z",
+        "Container": "e3ecbcf27722802c787b7416b3310d9fce5d99569abf5682ba4d599cc63355ae",
+        "ContainerConfig": {
+            "Hostname": "e3ecbcf27722",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin",
+                "GOSU_VERSION=1.14",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=14",
+                "PG_VERSION=14.4-1.pgdg110+1",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"postgres\"]"
+            ],
+            "Image": "sha256:17078d5c8a9195f0a0b8c7853cc0613d24c96b8a533b2911db65b635a1a4f093",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {},
+            "StopSignal": "SIGINT"
+        },
+        "DockerVersion": "20.10.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin",
+                "GOSU_VERSION=1.14",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=14",
+                "PG_VERSION=14.4-1.pgdg110+1",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "Image": "sha256:17078d5c8a9195f0a0b8c7853cc0613d24c96b8a533b2911db65b635a1a4f093",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null,
+            "StopSignal": "SIGINT"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 376111955,
+        "VirtualSize": 376111955,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/1467ef09a3e9eaace823810616b0e50f0909400b45b8eb7fda7c490f26af617e/diff:/var/lib/docker/overlay2/f88680f0d74b325ffdf627aabb69b81af3656a4a0e57e0fb8131ec9d8770cc64/diff:/var/lib/docker/overlay2/28be68029163002a6a85f92c5ee137bd43c19e199cee87f613d9438e4495a749/diff:/var/lib/docker/overlay2/4d9349604dd68dfbc2d24957d27292b036f4291ee8bad6f29d837db951c8d259/diff:/var/lib/docker/overlay2/5e3ce40c754e63da4703f534973d23e4022198ef9a1c309366486e32b8505d66/diff:/var/lib/docker/overlay2/9eb982186bbffb800f7eabd71bbf1ee50f8d404df4b1c03d867feffc3d4e946e/diff:/var/lib/docker/overlay2/eaa50087aee46c1411f2237c3afb914a27e833f4226b703a9bb980428907a555/diff:/var/lib/docker/overlay2/ed11f1682de831b0dcf9be3aadf1effed68ca94fb8b699e37f9045399549e8df/diff:/var/lib/docker/overlay2/8762d480a8bf8ceb1c3137728fa35ced2481551aa0fd4be2f4166ccc60916b5f/diff:/var/lib/docker/overlay2/9016a56cbd01512bb48644f2e02513c30ab42730d4c154ddd2e49610b6192d46/diff:/var/lib/docker/overlay2/2ba08598484234f234bfda11da28f888e4943bfa6ab96875c7aa6c332f9c263e/diff:/var/lib/docker/overlay2/993d943f518e80922dbc00a7865471207fa82fd0a7ee43653c8d4573aa775c85/diff",
+                "MergedDir": "/var/lib/docker/overlay2/9d5a05ef6ab770a40162a5a53f81f830e3cbe939092bb1e37662b812cff859d2/merged",
+                "UpperDir": "/var/lib/docker/overlay2/9d5a05ef6ab770a40162a5a53f81f830e3cbe939092bb1e37662b812cff859d2/diff",
+                "WorkDir": "/var/lib/docker/overlay2/9d5a05ef6ab770a40162a5a53f81f830e3cbe939092bb1e37662b812cff859d2/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:43b3c4e3001c662d1c264ffb132f4e52950893452b15508df810214f1d3f124b",
+                "sha256:161c0450b16525333849d529cee3a358dc2b3b67ae2e92099c5f40e893212a1b",
+                "sha256:07b832378873371de3a658753c3fe14f272777c3257ebffd7dd4b7d1f817b854",
+                "sha256:47c24bf623ef92581f47d292384a9e1aa62855268bc9849fbb601d3f12f35573",
+                "sha256:49a41955f6689f808c82cf5bdd0bb3ee75f7b594952c3f66bffb36de9b5e7e24",
+                "sha256:b9bb96d04e0052d43087dc9a80cc5ee43cc4d1dfaec2dfbd8a510d0b53def582",
+                "sha256:ae3f8a6958393735d6698bc7231471b15e50178741455e7377f0a7acd1ef5d92",
+                "sha256:bfe7f308cc08f0a8128a55077f376748c51464a54448cc70de03e246558215e9",
+                "sha256:a69cf4fa65aaef8a30c3a82bf22a4b3f434dd32991b0e922e6523252b97c27e7",
+                "sha256:8017faf91ccfbdde5d7f4c3b464d5d80e17b24cedbf7d8e78e49720e93aecb6a",
+                "sha256:9780b3efe4f864752be7605200f11066be78108fc40660d9dc83e5d5c800f25b",
+                "sha256:773a597cb8bbc7f4e4fae53558e6127470650faa560857fa9176d5c86b3b1a4c",
+                "sha256:94e937379c93db2d2694e8e47c442ce2aef45ee2432904761abd6c4a33b4cf6a"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
